@@ -6121,3 +6121,12 @@ legend {
 .panel-info .panel-heading {
   border-color: #000;
 }
+
+footer {
+    margin: 5em 0;
+}
+footer li {
+    float: left;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+}
