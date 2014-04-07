@@ -37,6 +37,9 @@ app.get('/api/books', api.book.all);
 app.get('/api/books/:title', api.book.one);
 app.post('/api/books', api.book.create);
 
+app.get('/api/categories', api.category.all);
+app.post('/api/categories', api.category.create);
+
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
